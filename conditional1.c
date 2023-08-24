@@ -6,18 +6,20 @@ int main()
 	scanf("%d%d%d",&k,&b,&n);
 	if((k>b)&&(k>n))
 	{
-		printf("\nMax. value of the is:%d",k);
+		printf("\nK is max.:%d",k);
 	}
 	else
 	{
 	    if((b>k)&&(b>n))
 	      {
-            printf("\nMax. value of the is:%d",b);             
+            printf("\nB is max.:%d",b);             
 	      }
 	      else
 	      {
-	       	printf("\nMax.value of the is:%d" ,n);
+	       	printf("\nN is max.:%d" ,n);
 	      }
 	}
 	return 0;
 }
+
+
