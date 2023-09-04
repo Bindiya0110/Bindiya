@@ -4,9 +4,15 @@ int main()
 	int n;
 	while(n<=10)
 	{
-		printf("%d\n",n);
-		n=n+2;
-		n++;
+		if(n%2!=0)
+		{
+			printf("%d\n",n);
+			n++;
+		}
+		else
+		{
+			n++;
+		}
 	}
 	return 0;
 }
