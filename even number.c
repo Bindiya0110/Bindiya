@@ -1,11 +1,18 @@
 #include<stdio.h>
 int main()
 {
-	int c;
-	while(c<=10)
+	int n;
+	while(n<=10)
 	{
-		printf("%d\n",c);
-		c=c+2;
+		if(n%2==0)
+		{
+			printf("%d\n",n);
+			n++;
+		}
+		else
+		{
+			n++;
+		}
 	}
 	return 0;
 }
